@@ -10,7 +10,7 @@ async function connectToDatabase() {
     return cachedDb;
   }
   
-  const db = await mongoose.connect('mongodb+srv://ektadodiya01_db_user:Ekta%402612@innovate.zqj90eb.mongodb.net/');
+  const db = await mongoose.connect('mongodb+srv://meghanshthakker:sPJZneO8Bx29SJo8@raktmap.rjhcmrd.mongodb.net/raktmap?retryWrites=true&w=majority');
   return db;
 }
 
