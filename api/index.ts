@@ -51,7 +51,7 @@ function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
 // Hospital Coordinates
 const hospitalLat = 22.602556127219323;
 const hospitalLng = 72.82048814218332;
-const geofenceRadiusKm = 10; // 10km radius for 2-3km distance buffer
+const geofenceRadiusKm = 50; // 10km radius for 2-3km distance buffer
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // CORS headers
